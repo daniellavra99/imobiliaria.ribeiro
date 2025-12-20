@@ -9,9 +9,9 @@ const products = [
       "imagens/apartamento/apartamento1.jpg",
       "imagens/apartamento/apartamento2.jpg",
       "imagens/apartamento/apartamento3.jpg",
-      "imagens/apartamento/apartamento4.jpg",
-      "imagens/apartamento/apartamento5.jpg",
-      "imagens/apartamento/apartamento6.jpg"
+      "imagens/apartamento/apartamento4.jpg"
+      //"imagens/apartamento/apartamento5.jpg",
+      //"imagens/apartamento/apartamento6.jpg"
     ],
     desc: "Apartamento bem localizado no centro com 2 quartos e garagem ,Rua Olegário Maciel nº157.\n\n Celular: (32) 99283-8169.",
     whatsappMsg: "Olá! Gostaria de visitar esse Apartamento. Pode confirmar?"
@@ -116,7 +116,7 @@ const products = [
     desc: "Residência moderna: suíte, varanda gourmet e acabamento de qualidade,Rua Oscar Niemeyer nº270.\n\n Celular: (32) 99803-9570.",
     whatsappMsg: "Olá! Gostaria de conhecer essa residência. Pode confirmar?"
   },
-  {id: 9, title: "Apartamento com suítes", price: "155.000,00", cat: "Apartamentos",
+  {id: 9, title: "Apartamento com suíte", price: "155.000,00", cat: "Apartamentos",
    imgs: [
       "imagens/apartamen/apartamen1.jpg",
       "imagens/apartamen/apartamen2.jpg",
@@ -327,6 +327,7 @@ qrModal.addEventListener('click', (e) => { if(e.target === qrModal) qrModal.styl
  ***********************/
 
 render();
+
 
 
 
