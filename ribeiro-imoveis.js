@@ -118,12 +118,12 @@ const products = [
   },
   {id: 9, title: "Apartamento com suítes", price: "155.000,00", cat: "Apartamentos",
    imgs: [
-      "imagens/Apartamen1.jpg",
-      "imagens/Apartamen2.jpg",
-      "imagens/Apartamen3.jpg",
-      "imagens/Apartamen4.webp",
-      "imagens/Apartamen5.webp",
-      "imagens/Apartamen6.webp"
+      "imagens/Apartamen1.jpg"//,
+      //"imagens/Apartamen2.jpg",
+      //"imagens/Apartamen3.jpg",
+      //"imagens/Apartamen4.webp",
+      //"imagens/Apartamen5.webp",
+      //"imagens/Apartamen6.webp"
     ],
     desc: "Apartamento com suíte: acabamento moderno, boa iluminação e área de lazer completa, Rua São Sebastião nº13.\n\n Celular: (32) 97400-1088.",
     whatsappMsg: "Olá! Gostaria de visitar este apartamento. Pode confirmar?"
@@ -327,4 +327,5 @@ qrModal.addEventListener('click', (e) => { if(e.target === qrModal) qrModal.styl
  ***********************/
 
 render();
+
 
