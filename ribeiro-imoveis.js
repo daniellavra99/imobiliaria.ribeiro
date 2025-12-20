@@ -118,7 +118,7 @@ const products = [
   },
   {id: 9, title: "Apartamento com suíte", price: "155.000,00", cat: "Apartamentos",
    imgs: [
-      "imagens/Apartamen1.webp",
+      "imagens/Apartamen1.jpg",
       "imagens/Apartamen2.jpg",
       "imagens/Apartamen3.jpg",
       "imagens/Apartamen4.webp",
@@ -325,4 +325,5 @@ qrModal.addEventListener('click', (e) => { if(e.target === qrModal) qrModal.styl
 /***********************
  * Inicializa
  ***********************/
+
 render();
