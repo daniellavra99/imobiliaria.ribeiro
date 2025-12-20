@@ -10,8 +10,6 @@ const products = [
       "imagens/apartamento/apartamento2.jpg",
       "imagens/apartamento/apartamento3.jpg",
       "imagens/apartamento/apartamento4.jpg"
-      //"imagens/apartamento/apartamento5.jpg",
-      //"imagens/apartamento/apartamento6.jpg"
     ],
     desc: "Apartamento bem localizado no centro com 2 quartos e garagem ,Rua Olegário Maciel nº157.\n\n Celular: (32) 99283-8169.",
     whatsappMsg: "Olá! Gostaria de visitar esse Apartamento. Pode confirmar?"
@@ -327,6 +325,7 @@ qrModal.addEventListener('click', (e) => { if(e.target === qrModal) qrModal.styl
  ***********************/
 
 render();
+
 
 
 
