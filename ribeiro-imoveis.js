@@ -116,7 +116,7 @@ const products = [
     desc: "Residência moderna: suíte, varanda gourmet e acabamento de qualidade,Rua Oscar Niemeyer nº270.\n\n Celular: (32) 99803-9570.",
     whatsappMsg: "Olá! Gostaria de conhecer essa residência. Pode confirmar?"
   },
-  {id: 9, title: "Apartamento com suíte", price: "155.000,00", cat: "Apartamentos",
+  {id: 9, title: "Apartamento com suítes", price: "155.000,00", cat: "Apartamentos",
    imgs: [
       "imagens/Apartamen1.jpg",
       "imagens/Apartamen2.jpg",
@@ -327,3 +327,4 @@ qrModal.addEventListener('click', (e) => { if(e.target === qrModal) qrModal.styl
  ***********************/
 
 render();
+
