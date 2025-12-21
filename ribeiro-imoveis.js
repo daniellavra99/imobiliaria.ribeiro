@@ -6,10 +6,12 @@ const products = [
   {
     id: 1, title: "Apartamento no Centro", price: "225.000,00", cat: "Apartamentos",
     imgs: [
-      "imagens/apartamento/apartamento1.jpg",
-      "imagens/apartamento/apartamento2.jpg",
-      "imagens/apartamento/apartamento3.jpg",
-      "imagens/apartamento/apartamento4.jpg"
+      "imagens/Apartamento1.jpg",
+      "imagens/Apartamento2.jpg",
+      "imagens/Apartamento3.jpg",
+      "imagens/Apartamento4.jpg",
+      "imagens/Apartamento5.webp",
+      "imagens/Apartamento6.webp"
     ],
     desc: "Apartamento bem localizado no centro com 2 quartos e garagem ,Rua Olegário Maciel nº157.\n\n Celular: (32) 99283-8169.",
     whatsappMsg: "Olá! Gostaria de visitar esse Apartamento. Pode confirmar?"
@@ -17,16 +19,16 @@ const products = [
   {
     id: 2, title: "Apartamento na Santa Helena", price: "375.000,00", cat: "Apartamentos",
     imgs: [
-      "imagens/apartament/apartament1.jpg",
-      "imagens/apartament/apartament2.jpg",
-      "imagens/apartament/apartament3.jpg",
-      "imagens/apartament/apartament4.jpg",
-      "imagens/apartament/apartament5.jpg",
-      "imagens/apartament/apartament6.jpg",
-      "imagens/apartament/apartament7.jpg",
-      "imagens/apartament/apartament8.jpg",
-      "imagens/apartament/apartament9.jpg",
-      "imagens/apartament/apartament10.jpg"
+      "imagens/apartament1.jpg",
+      "imagens/apartament2.webp",
+      "imagens/apartament3.jpg",
+      "imagens/apartament4.jpg",
+      "imagens/apartament5.webp",
+      "imagens/apartament6.webp",
+      "imagens/apartament7.webp",
+      "imagens/apartament8.webp",
+      "imagens/apartament9.webp",
+      "imagens/apartament10.webp"
     ],
     desc: "Apartamento com 3 quartos, 2 banheiros e varanda, Rua Luis Sansão nº30.\n\n Celular: (32) 99292-8873.",
     whatsappMsg: "Olá! Gostaria de conhecer esse apartamento. Pode confirmar?"
@@ -34,22 +36,22 @@ const products = [
   {
     id: 3, title: "Casa no AlphaVille", price: "875.000,00", cat: "Casas",
     imgs: [
-      "imagens/casa/casa1.jpg",
-      "imagens/casa/casa2.jpg",
-      "imagens/casa/casa3.jpg  ",
-      "imagens/casa/casa4.jpg",
-      "imagens/casa/casa5.jpg",
-      "imagens/casa/casa6.jpg",
-      "imagens/casa/casa7.jpg",
-      "imagens/casa/casa8.jpg",
-      "imagens/casa/casa9.jpg",
-      "imagens/casa/casa10.jpg",
-      "imagens/casa/casa11.jpg",
-      "imagens/casa/casa12.jpg",
-      "imagens/casa/casa13.jpg",
-      "imagens/casa/casa14.jpg",
-      "imagens/casa/casa15.jpg",
-      "imagens/casa/casa16.jpg"
+      "imagens/casa1.jpg",
+      "imagens/casa2.jpg",
+      "imagens/casa3.jpg  ",
+      "imagens/casa4.jpg",
+      "imagens/casa5.jpg",
+      "imagens/casa6.jpg",
+      "imagens/casa7.jpg",
+      "imagens/casa8.jpg",
+      "imagens/casa9.jpg",
+      "imagens/casa10.jpg",
+      "imagens/casa11.jpg",
+      "imagens/casa12.webp",
+      "imagens/casa13.jpg",
+      "imagens/casa14.jpg",
+      "imagens/casa15.jpg",
+      "imagens/casa16.jpg"
 
     ],
     desc: "Casa nova com piscina e churrasqueira , Rua Oscar Vidal nº27.\n\n Celular: (32) 99292-8173.",
@@ -58,10 +60,10 @@ const products = [
   {
     id: 4, title: "Terreno plano em Bairu", price: "185.000,00", cat: "Terrenos",
     imgs: [
-      "imagens/terreno/terreno1.jpg",
-      "imagens/terreno/terreno2.jpg",
-      "imagens/terreno/terreno3.jpg",
-      "imagens/terreno/terreno4.jpg",
+      "imagens/Terreno1.jpg",
+      "imagens/Terreno2.jpg",
+      "imagens/Terreno3.jpg",
+      "imagens/Terreno4.jpg",
     ],
     desc: "Terreno com excelente frente e profundidade, viabilidade para projetos diversos, Rua Luiz Xavier nº12.\n\n Celular: (32) 99292-8873.",
     whatsappMsg: "Olá! Gostaria de visitar este terreno. Pode confirmar?"
@@ -69,9 +71,9 @@ const products = [
   {
     id: 5, title: "Terreno grande e bem localizado em Santa Luzia", price: "155.000,00", cat: "Terrenos",
    imgs: [
-      "imagens/terren/terren1.jpg",
-      "imagens/terren/terren2.jpg",
-      "imagens/terren/terren3.jpg"
+      "imagens/Terren1.jpg",
+      "imagens/Terren2.jpg",
+      "imagens/Terren3.jpg"
     ],
     desc: "Terreno grande e bem localizado com preço acessível com 175m², Rua São Sebastião nº13.\n\n Celular: (32) 97400-1088.",
     whatsappMsg: "Olá! Gostaria de visitar o terreno. Pode confirmar?"
@@ -79,24 +81,24 @@ const products = [
   {
     id: 6, title: "Casa grande no São Pedro", price: "740.000,00", cat: "Casas",
     imgs: [
-      "imagens/cas/cas1.jpg",
-      "imagens/cas/cas2.jpg",
-      "imagens/cas/cas3.jpg",
-      "imagens/cas/cas4.jpg",
-      "imagens/cas/cas4.jpg",
-      "imagens/cas/cas5.jpg",
-      "imagens/cas/cas6.jpg",
-      "imagens/cas/cas7.jpg",
-      "imagens/cas/cas8.jpg"
+      "imagens/cas1.webp",
+      "imagens/cas2.webp",
+      "imagens/cas3.webp",
+      "imagens/cas4.webp",
+      "imagens/cas4.webp",
+      "imagens/cas5.webp",
+      "imagens/cas6.webp",
+      "imagens/cas7.webp",
+      "imagens/cas8.webp"
     ],
     desc: "Charmosa casa térrea com 2 quartos, jardim privativo e área de lazer,Rua Itamar Franco  nº109.\n\n Celular: (32) 99803-9570.",
     whatsappMsg: "Olá! Gostaria de conhecer essa casa. Pode confirmar?"
   },
   {id: 7, title: "Terreno à venda", price: "275.000,00", cat: "Terrenos",
    imgs: [
-      "imagens/terrenos/terrenos1.jpg",
-      "imagens/terrenos/terrenos2.jpg",
-      "imagens/terrenos/terrenos3.jpg"
+      "imagens/Terrenos1.jpg",
+      "imagens/Terrenos2.jpg",
+      "imagens/Terrenos3.jpg"
     ],
     desc: "300 m², topografia plana, ideal para construir sua casa dos sonhos; localização valorizada, Rua São Sebastião nº13.\n\n Celular: (32) 97400-1088.",
     whatsappMsg: "Olá! Gostaria de visitar o terreno. Pode confirmar?"
@@ -104,24 +106,24 @@ const products = [
   {
     id: 8, title: "Residência moderna", price: "725.000,00", cat: "Casas",
     imgs: [
-      "imagens/casas/casas1.jpg",
-      "imagens/casas/casas2.jpg",
-      "imagens/casas/casas3.jpg",
-      "imagens/casas/casas4.jpg",
-      "imagens/casas/casas4.jpg",
-      "imagens/casas/casas5.jpg"
+      "imagens/casas1.jpg",
+      "imagens/casas2.webp",
+      "imagens/casas3.webp",
+      "imagens/casas4.webp",
+      "imagens/casas4.webp",
+      "imagens/casas5.webp"
     ],
     desc: "Residência moderna: suíte, varanda gourmet e acabamento de qualidade,Rua Oscar Niemeyer nº270.\n\n Celular: (32) 99803-9570.",
     whatsappMsg: "Olá! Gostaria de conhecer essa residência. Pode confirmar?"
   },
   {id: 9, title: "Apartamento com suíte", price: "155.000,00", cat: "Apartamentos",
    imgs: [
-      "imagens/apartamen/apartamen1.jpg",
-      "imagens/apartamen/apartamen2.jpg",
-      "imagens/apartamen/apartamen3.jpg",
-      "imagens/apartamen/apartamen4.jpg",
-      "imagens/apartamen/apartamen5.jpg",
-      "imagens/apartamen/apartamen6.jpg"
+      "imagens/Apartamen1.webp",
+      "imagens/Apartamen2.jpg",
+      "imagens/Apartamen3.jpg",
+      "imagens/Apartamen4.webp",
+      "imagens/Apartamen5.webp",
+      "imagens/Apartamen6.webp"
     ],
     desc: "Apartamento com suíte: acabamento moderno, boa iluminação e área de lazer completa, Rua São Sebastião nº13.\n\n Celular: (32) 97400-1088.",
     whatsappMsg: "Olá! Gostaria de visitar este apartamento. Pode confirmar?"
@@ -129,15 +131,9 @@ const products = [
 
 ];
 
-/***********************
- * CONFIGURAÇÕES RÁPIDAS
- ***********************/
-const whatsappPhone = "5524992928873"; // número em formato internacional sem sinais
-const brandName = "Ribeiro Imóveis";
+const whatsappPhone = "5524992928873";
+const brandName = "Deise Matelassê";
 
-/***********************
- * ELEMENTOS
- ***********************/
 const grid = document.getElementById('grid');
 const filtersEl = document.getElementById('filters');
 const searchInput = document.getElementById('searchInput');
@@ -161,23 +157,17 @@ const detailWhats = document.getElementById('detailWhats');
 const detailClose = document.getElementById('detailClose');
 const closeDetailsBtn = document.getElementById('closeDetailsBtn');
 
-/***********************
- * Monta lista de categorias
- ***********************/
 const categories = ["Todos", ...Array.from(new Set(products.map(p => p.cat)))];
 let activeCat = "Todos";
 categories.forEach(cat => {
   const btn = document.createElement('button');
   btn.className = 'filter-btn ' + (cat === "Todos" ? "active" : "");
   btn.innerText = cat;
-  btn.onclick = () => { document.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active')); btn.classList.add('active'); activeCat = cat; render(); }
+  btn.onclick = () => { document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active')); btn.classList.add('active'); activeCat = cat; render(); }
   filtersEl.appendChild(btn);
 });
 
-/***********************
- * Renderiza produtos (cards)
- ***********************/
-function render(){
+function render() {
   const q = (searchInput.value || "").toLowerCase().trim();
   grid.innerHTML = "";
   const filtered = products.filter(p => {
@@ -185,7 +175,7 @@ function render(){
     const matches = [p.title, p.desc, p.price, p.cat].join(" ").toLowerCase().includes(q);
     return inCat && matches;
   });
-  if(filtered.length === 0){
+  if (filtered.length === 0) {
     grid.innerHTML = `<div style="grid-column:1/-1;padding:22px;border-radius:10px;background:#fff;text-align:center;color:${getComputedStyle(document.documentElement).getPropertyValue('--muted')};">Nenhum produto encontrado.</div>`;
     return;
   }
@@ -214,26 +204,20 @@ function render(){
   });
 }
 
-function escapeHtml(str){ return (str||"").replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;'); }
+function escapeHtml(str) { return (str || "").replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;'); }
 
-/***********************
- * WhatsApp -> abre com mensagem predefinida
- ***********************/
-function openWhatsApp(productId){
-  const p = products.find(x=>x.id===productId);
+function openWhatsApp(productId) {
+  const p = products.find(x => x.id === productId);
   const msg = encodeURIComponent(`${p.whatsappMsg} (${brandName} / catálogo)`);
   const link = `https://wa.me/${whatsappPhone}?text=${msg}`;
   window.open(link, '_blank');
 }
 
-/***********************
- * Modal de detalhes + Carrossel
- ***********************/
 let currentImages = [];
 let currentIndex = 0;
 let currentProductId = null;
 
-function showDetails(productId){
+function showDetails(productId) {
   const p = products.find(x => x.id === productId);
   currentImages = (p.imgs && p.imgs.length) ? p.imgs.slice() : [''];
   currentIndex = 0;
@@ -245,12 +229,11 @@ function showDetails(productId){
   detailPrice.innerHTML = `<span class="currency">R$</span> ${escapeHtml(p.price)}`;
   detailCat.innerText = p.cat;
 
-  // montar thumbs
   thumbsContainer.innerHTML = '';
   currentImages.forEach((src, idx) => {
     const t = document.createElement('img');
     t.src = src;
-    t.alt = p.title + ' - ' + (idx+1);
+    t.alt = p.title + ' - ' + (idx + 1);
     t.className = idx === 0 ? 'active' : '';
     t.onclick = () => { currentIndex = idx; updateCarousel(); }
     thumbsContainer.appendChild(t);
@@ -263,26 +246,25 @@ function showDetails(productId){
   closeDetailsBtn.onclick = closeDetails;
 }
 
-function closeDetails(){
+function closeDetails() {
   detailsModal.style.display = "none";
 }
 
-function updateCarousel(){
+function updateCarousel() {
   carouselImg.src = currentImages[currentIndex] || '';
-  // atualizar classe nas thumbs
   Array.from(thumbsContainer.children).forEach((el, idx) => {
-    if(idx === currentIndex) el.classList.add('active'); else el.classList.remove('active');
+    if (idx === currentIndex) el.classList.add('active'); else el.classList.remove('active');
   });
 }
 
-function nextImg(){
-  if(!currentImages.length) return;
+function nextImg() {
+  if (!currentImages.length) return;
   currentIndex = (currentIndex + 1) % currentImages.length;
   updateCarousel();
 }
 
-function prevImg(){
-  if(!currentImages.length) return;
+function prevImg() {
+  if (!currentImages.length) return;
   currentIndex = (currentIndex - 1 + currentImages.length) % currentImages.length;
   updateCarousel();
 }
@@ -290,43 +272,26 @@ function prevImg(){
 prevBtn.addEventListener('click', prevImg);
 nextBtn.addEventListener('click', nextImg);
 
-// fechar modal clicando fora do conteúdo
 detailsModal.addEventListener('click', (e) => {
-  if(e.target === detailsModal) closeDetails();
+  if (e.target === detailsModal) closeDetails();
 });
 
-/***********************
- * Busca em tempo real
- ***********************/
-searchInput.addEventListener('input', ()=>render());
+searchInput.addEventListener('input', () => render());
 
-/***********************
- * QR Code do catálogo
- ***********************/
-qrBtn.addEventListener('click', ()=> {
-  const url = location.href; // link atual (cada cliente terá seu link único)
+qrBtn.addEventListener('click', () => {
+  const url = location.href;
   catalogLink.value = url;
   qrcodeEl.innerHTML = "";
   new QRCode(qrcodeEl, { text: url, width: 180, height: 180 });
   qrModal.style.display = 'flex';
 });
-qrClose.addEventListener('click', ()=>qrModal.style.display='none');
-copyBtn.addEventListener('click', ()=> {
-  catalogLink.select(); catalogLink.setSelectionRange(0,99999);
+qrClose.addEventListener('click', () => qrModal.style.display = 'none');
+copyBtn.addEventListener('click', () => {
+  catalogLink.select(); catalogLink.setSelectionRange(0, 99999);
   document.execCommand('copy');
   copyBtn.innerText = "Copiado ✓";
-  setTimeout(()=> copyBtn.innerText = "Copiar link", 1500);
+  setTimeout(() => copyBtn.innerText = "Copiar link", 1500);
 });
-// fechar QR clicando fora
-qrModal.addEventListener('click', (e) => { if(e.target === qrModal) qrModal.style.display = 'none'; });
-
-/***********************
- * Inicializa
- ***********************/
+qrModal.addEventListener('click', (e) => { if (e.target === qrModal) qrModal.style.display = 'none'; });
 
 render();
-
-
-
-
-

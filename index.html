@@ -1,8 +1,9 @@
 <!doctype html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <title>Ribeiro Imóveis</title>
 
   <!-- Fonte -->
@@ -14,6 +15,7 @@
   <!-- QRCode.js (gera QR no cliente) -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
 </head>
+
 <body>
   <header>
     <div class="logo">RI</div>
@@ -26,7 +28,7 @@
   <main class="container">
     <div class="controls">
       <div class="search">
-        🔎 <input id="searchInput" placeholder="Buscar imóveis..." />
+        🔎 <input id="searchInput" placeholder="Buscar Imóveis..." />
       </div>
 
       <div class="filters" id="filters"></div>
@@ -43,8 +45,10 @@
       <button class="qr-close" id="qrClose">✖</button>
       <h3 style="margin:0">Compartilhar catálogo</h3>
       <div id="qrcode" style="margin:8px;"></div>
-      <div style="font-size:13px;color:var(--muted);text-align:center">Escaneie com a câmera ou compartilhe o link:</div>
-      <input id="catalogLink" readonly style="width:100%;padding:8px;border-radius:8px;border:1px solid #eee;text-align:center" />
+      <div style="font-size:13px;color:var(--muted);text-align:center">Escaneie com a câmera ou compartilhe o link:
+      </div>
+      <input id="catalogLink" readonly
+        style="width:100%;padding:8px;border-radius:8px;border:1px solid #eee;text-align:center" />
       <button id="copyBtn" class="btn details" style="width:100%">Copiar link</button>
     </div>
   </div>
@@ -56,9 +60,9 @@
 
       <div class="left-col">
         <div class="carousel">
-          <button id="prevBtn" aria-label="Imagem anterior">⟨</button>
+          <button id="prevBtn" class="carousel-nav-btn prev" aria-label="Imagem anterior">⟨</button>
           <img id="carouselImg" class="carousel-img" alt="Foto do produto" />
-          <button id="nextBtn" aria-label="Próxima imagem">⟩</button>
+          <button id="nextBtn" class="carousel-nav-btn next" aria-label="Próxima imagem">⟩</button>
         </div>
         <div class="thumbs" id="thumbsContainer" aria-hidden="false"></div>
       </div>
@@ -83,4 +87,5 @@
 
   <script src="ribeiro-imoveis.js"></script>
 </body>
+
 </html>
