@@ -30,7 +30,7 @@ const products = [
       "imagens/apartament9.webp",
       "imagens/apartament10.webp"
     ],
-    desc: "Apartamento com 3 quartos, 2 banheiros e varanda, Rua Luis Sansão nº30.\n\n Celular: (32) 99292-8873.",
+    desc: "Apartamento com 3 quartos, 2 banheiros e varanda, Rua Luis Sansão nº30.\n\n Celular: (21) 96724-1452.",
     whatsappMsg: "Olá! Gostaria de conhecer esse apartamento. Pode confirmar?"
   },
   {
@@ -54,7 +54,7 @@ const products = [
       "imagens/casa16.jpg"
 
     ],
-    desc: "Casa nova com piscina e churrasqueira , Rua Oscar Vidal nº27.\n\n Celular: (32) 99292-8173.",
+    desc: "Casa nova com piscina e churrasqueira , Rua Oscar Vidal nº27.\n\n Celular: (21) 96724-1452.",
     whatsappMsg: "Olá! Gostaria de visitar esta casa. Pode confirmar?"
   },
   {
@@ -65,7 +65,7 @@ const products = [
       "imagens/Terreno3.jpg",
       "imagens/Terreno4.jpg",
     ],
-    desc: "Terreno com excelente frente e profundidade, viabilidade para projetos diversos, Rua Luiz Xavier nº12.\n\n Celular: (32) 99292-8873.",
+    desc: "Terreno com excelente frente e profundidade, viabilidade para projetos diversos, Rua Luiz Xavier nº12.\n\n Celular: (21) 96724-1452.",
     whatsappMsg: "Olá! Gostaria de visitar este terreno. Pode confirmar?"
   },
   {
@@ -75,7 +75,7 @@ const products = [
       "imagens/Terren2.jpg",
       "imagens/Terren3.jpg"
     ],
-    desc: "Terreno grande e bem localizado com preço acessível com 175m², Rua São Sebastião nº13.\n\n Celular: (32) 97400-1088.",
+    desc: "Terreno grande e bem localizado com preço acessível com 175m², Rua São Sebastião nº13.\n\n Celular: (21) 96724-1452.",
     whatsappMsg: "Olá! Gostaria de visitar o terreno. Pode confirmar?"
   },
   {
@@ -91,7 +91,7 @@ const products = [
       "imagens/cas7.webp",
       "imagens/cas8.webp"
     ],
-    desc: "Charmosa casa térrea com 2 quartos, jardim privativo e área de lazer,Rua Itamar Franco  nº109.\n\n Celular: (32) 99803-9570.",
+    desc: "Charmosa casa térrea com 2 quartos, jardim privativo e área de lazer,Rua Itamar Franco  nº109.\n\n Celular: (21) 96724-1452.",
     whatsappMsg: "Olá! Gostaria de conhecer essa casa. Pode confirmar?"
   },
   {id: 7, title: "Terreno à venda", price: "275.000,00", cat: "Terrenos",
@@ -100,7 +100,7 @@ const products = [
       "imagens/Terrenos2.jpg",
       "imagens/Terrenos3.jpg"
     ],
-    desc: "300 m², topografia plana, ideal para construir sua casa dos sonhos; localização valorizada, Rua São Sebastião nº13.\n\n Celular: (32) 97400-1088.",
+    desc: "300 m², topografia plana, ideal para construir sua casa dos sonhos; localização valorizada, Rua São Sebastião nº13.\n\n Celular: (21) 96724-1452.",
     whatsappMsg: "Olá! Gostaria de visitar o terreno. Pode confirmar?"
   },
   {
@@ -113,7 +113,7 @@ const products = [
       "imagens/casas4.webp",
       "imagens/casas5.webp"
     ],
-    desc: "Residência moderna: suíte, varanda gourmet e acabamento de qualidade,Rua Oscar Niemeyer nº270.\n\n Celular: (32) 99803-9570.",
+    desc: "Residência moderna: suíte, varanda gourmet e acabamento de qualidade,Rua Oscar Niemeyer nº270.\n\n Celular: (21) 96724-1452.",
     whatsappMsg: "Olá! Gostaria de conhecer essa residência. Pode confirmar?"
   },
   {id: 9, title: "Apartamento com suíte", price: "155.000,00", cat: "Apartamentos",
@@ -125,7 +125,7 @@ const products = [
       "imagens/Apartamen5.webp",
       "imagens/Apartamen6.webp"
     ],
-    desc: "Apartamento com suíte: acabamento moderno, boa iluminação e área de lazer completa, Rua São Sebastião nº13.\n\n Celular: (32) 97400-1088.",
+    desc: "Apartamento com suíte: acabamento moderno, boa iluminação e área de lazer completa, Rua São Sebastião nº13.\n\n Celular: (21) 96724-1452.",
     whatsappMsg: "Olá! Gostaria de visitar este apartamento. Pode confirmar?"
   }
 
@@ -295,3 +295,4 @@ copyBtn.addEventListener('click', () => {
 qrModal.addEventListener('click', (e) => { if (e.target === qrModal) qrModal.style.display = 'none'; });
 
 render();
+
