@@ -6,12 +6,12 @@ const products = [
   {
     id: 1, title: "Apartamento no Centro", price: "225.000,00", cat: "Apartamentos",
     imgs: [
-      "imagens/Apartamento1.jpg",
-      "imagens/Apartamento2.jpg",
-      "imagens/Apartamento3.jpg",
-      "imagens/Apartamento4.jpg",
-      "imagens/Apartamento5.webp",
-      "imagens/Apartamento6.webp"
+      "imagens/apartamento/apartamento1.jpg",
+      "imagens/apartamento/apartamento2.jpg",
+      "imagens/apartamento/apartamento3.jpg",
+      "imagens/apartamento/apartamento4.jpg",
+      "imagens/apartamento/apartamento5.webp",
+      "imagens/apartamento/apartamento6.webp"
     ],
     desc: "Apartamento bem localizado no centro com 2 quartos e garagem ,Rua Olegário Maciel nº157.\n\n Celular: (32) 99283-8169.",
     whatsappMsg: "Olá! Gostaria de visitar esse Apartamento. Pode confirmar?"
@@ -295,4 +295,5 @@ copyBtn.addEventListener('click', () => {
 qrModal.addEventListener('click', (e) => { if (e.target === qrModal) qrModal.style.display = 'none'; });
 
 render();
+
 
