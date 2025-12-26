@@ -13,7 +13,7 @@ const products = [
       "imagens/apartamento/apartamento5.jpg",
       "imagens/apartamento/apartamento6.jpg"
     ],
-    desc: "Apartamento bem localizado no centro com 2 quartos e garagem ,Rua Olegário Maciel nº157.\n\n Celular: (32) 99283-8169.",
+    desc: "Apartamento bem localizado no centro com 2 quartos e garagem ,Rua Olegário Maciel nº157.\n\n Celular: (21) 99283-8169.",
     whatsappMsg: "Olá! Gostaria de visitar esse Apartamento. Pode confirmar?"
   },
   {
@@ -131,8 +131,8 @@ const products = [
 
 ];
 
-const whatsappPhone = "5524992928873";
-const brandName = "Deise Matelassê";
+const whatsappPhone = "5521967241542";
+const brandName = "Ribeiro Imóveis";
 
 const grid = document.getElementById('grid');
 const filtersEl = document.getElementById('filters');
@@ -295,6 +295,7 @@ copyBtn.addEventListener('click', () => {
 qrModal.addEventListener('click', (e) => { if (e.target === qrModal) qrModal.style.display = 'none'; });
 
 render();
+
 
 
 
