@@ -13,7 +13,7 @@ const products = [
       "imagens/apartamento/apartamento5.jpg",
       "imagens/apartamento/apartamento6.jpg"
     ],
-    desc: "Apartamento bem localizado no centro com 2 quartos e garagem ,Rua Olegário Maciel nº157.\n\n Celular: (21) 99283-8169.",
+    desc: "Apartamento bem localizado no centro com 2 quartos e garagem ,Rua Olegário Maciel nº157.\n\n Celular: (21) 96724-1542.",
     whatsappMsg: "Olá! Gostaria de visitar esse Apartamento. Pode confirmar?"
   },
   {
@@ -30,7 +30,7 @@ const products = [
       "imagens/apartament/apartament9.jpg",
       "imagens/apartament/apartament10.jpg"
     ],
-    desc: "Apartamento com 3 quartos, 2 banheiros e varanda, Rua Luis Sansão nº30.\n\n Celular: (21) 96724-1452.",
+    desc: "Apartamento com 3 quartos, 2 banheiros e varanda, Rua Luis Sansão nº30.\n\n Celular: (21) 96724-1542.",
     whatsappMsg: "Olá! Gostaria de conhecer esse apartamento. Pode confirmar?"
   },
   {
@@ -54,7 +54,7 @@ const products = [
       "imagens/casa/casa16.jpg"
 
     ],
-    desc: "Casa nova com piscina e churrasqueira , Rua Oscar Vidal nº27.\n\n Celular: (21) 96724-1452.",
+    desc: "Casa nova com piscina e churrasqueira , Rua Oscar Vidal nº27.\n\n Celular: (21) 96724-1542.",
     whatsappMsg: "Olá! Gostaria de visitar esta casa. Pode confirmar?"
   },
   {
@@ -65,7 +65,7 @@ const products = [
       "imagens/terreno/terreno3.jpg",
       "imagens/terreno/terreno4.jpg",
     ],
-    desc: "Terreno com excelente frente e profundidade, viabilidade para projetos diversos, Rua Luiz Xavier nº12.\n\n Celular: (21) 96724-1452.",
+    desc: "Terreno com excelente frente e profundidade, viabilidade para projetos diversos, Rua Luiz Xavier nº12.\n\n Celular: (21) 96724-1542.",
     whatsappMsg: "Olá! Gostaria de visitar este terreno. Pode confirmar?"
   },
   {
@@ -75,7 +75,7 @@ const products = [
       "imagens/terren/terren2.jpg",
       "imagens/terren/terren3.jpg"
     ],
-    desc: "Terreno grande e bem localizado com preço acessível com 175m², Rua São Sebastião nº13.\n\n Celular: (21) 96724-1452.",
+    desc: "Terreno grande e bem localizado com preço acessível com 175m², Rua São Sebastião nº13.\n\n Celular: (21) 96724-1542.",
     whatsappMsg: "Olá! Gostaria de visitar o terreno. Pode confirmar?"
   },
   {
@@ -91,7 +91,7 @@ const products = [
       "imagens/cas/cas7.jpg",
       "imagens/cas/cas8.jpg"
     ],
-    desc: "Charmosa casa térrea com 2 quartos, jardim privativo e área de lazer,Rua Itamar Franco  nº109.\n\n Celular: (21) 96724-1452.",
+    desc: "Charmosa casa térrea com 2 quartos, jardim privativo e área de lazer,Rua Itamar Franco  nº109.\n\n Celular: (21) 96724-1542.",
     whatsappMsg: "Olá! Gostaria de conhecer essa casa. Pode confirmar?"
   },
   {id: 7, title: "Terreno à venda", price: "275.000,00", cat: "Terrenos",
@@ -100,7 +100,7 @@ const products = [
       "imagens/terrenos/terrenos2.jpg",
       "imagens/terrenos/terrenos3.jpg"
     ],
-    desc: "300 m², topografia plana, ideal para construir sua casa dos sonhos; localização valorizada, Rua São Sebastião nº13.\n\n Celular: (21) 96724-1452.",
+    desc: "300 m², topografia plana, ideal para construir sua casa dos sonhos; localização valorizada, Rua São Sebastião nº13.\n\n Celular: (21) 96724-1542.",
     whatsappMsg: "Olá! Gostaria de visitar o terreno. Pode confirmar?"
   },
   {
@@ -113,7 +113,7 @@ const products = [
       "imagens/casas/casas4.jpg",
       "imagens/casas/casas5.jpg"
     ],
-    desc: "Residência moderna: suíte, varanda gourmet e acabamento de qualidade,Rua Oscar Niemeyer nº270.\n\n Celular: (21) 96724-1452.",
+    desc: "Residência moderna: suíte, varanda gourmet e acabamento de qualidade,Rua Oscar Niemeyer nº270.\n\n Celular: (21) 96724-1542.",
     whatsappMsg: "Olá! Gostaria de conhecer essa residência. Pode confirmar?"
   },
   {id: 9, title: "Apartamento com suíte", price: "155.000,00", cat: "Apartamentos",
@@ -125,7 +125,7 @@ const products = [
       "imagens/apartamen/apartamen5.jpg",
       "imagens/apartamen/apartamen6.jpg"
     ],
-    desc: "Apartamento com suíte: acabamento moderno, boa iluminação e área de lazer completa, Rua São Sebastião nº13.\n\n Celular: (21) 96724-1452.",
+    desc: "Apartamento com suíte: acabamento moderno, boa iluminação e área de lazer completa, Rua São Sebastião nº13.\n\n Celular: (21) 96724-1542.",
     whatsappMsg: "Olá! Gostaria de visitar este apartamento. Pode confirmar?"
   }
 
@@ -295,6 +295,7 @@ copyBtn.addEventListener('click', () => {
 qrModal.addEventListener('click', (e) => { if (e.target === qrModal) qrModal.style.display = 'none'; });
 
 render();
+
 
 
 
